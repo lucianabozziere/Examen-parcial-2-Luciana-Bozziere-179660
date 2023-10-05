@@ -1,3 +1,4 @@
+/*operaciones aleatorias*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
@@ -12,7 +13,7 @@ int main(){
 	while(a<5)
 	{
 	
-	r1=rand()%(5+1-1)+1;
+	r1=rand()%10;
 	r2=rand()%10;
 	
 	 switch(a)
